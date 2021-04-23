@@ -1,0 +1,39 @@
+* { box-sizing:border-box;margin:0;outline:0;padding:0; }
+html{ box-sizing:border-box;min-height:100%;position:relative;-webkit-text-size-adjust:100%; }
+body{ background-color:#efefef;color:#4a4a4a;font-family:'Nunito', sans-serif;line-height:1.5;margin:0; }
+
+header{ background:#dedede;height:76px; }
+header .logo{ float:left;width:30%;padding:24px 0;margin:0;display:flex; }
+header .items{ float:left;width:70%;display:flex; }
+header ul{ display:flex;float:left;padding:0;margin:0;list-style-type:none; }
+header ul li{ padding:1.2rem;position:relative;text-align:center; }
+header form{ float:left;margin-left:20px; }
+
+footer{ background:#b0b0b0;font-weight:bold;margin-top:60px;padding:22px 0; }
+
+.list{ flex-wrap:wrap; }
+article{ background:#ffffff;float:left;margin:1.6%;padding:20px;width:30%; }
+article h4{ font-size:1.15rem;font-weight:bold; }
+article p{ font-size:0.9rem;margin: 15px 0 50px; }
+
+.list-article{ background:#ffffff;float:left;margin:1.6%;padding:20px;width:100%; }
+
+.content{ display:flex;margin:0 auto;max-width:100%;position:relative;width:1140px; }
+
+.text-center{ display:block;text-align:center !important; }
+
+.btn{ background:#dedede;border-radius:16px;color:#4a4a4a;display:block;font-weight:bold;margin:0 auto;padding:12px;text-align:center;text-decoration:none;width:80%; } 
+.btn-action{ background:#256112;border:0;border-radius:16px;color:#ffffff;display:block;font-weight:bold;margin:0 auto;padding:12px;text-align:center;text-decoration:none;width:80%; }
+
+form.action{ background:#ffffff;padding:20px;width:100%; }
+form.action .line{ margin-bottom:.8rem; }
+form.action .line-button{ float:right;margin-bottom:.8rem;width:50%; }
+form.action label{ display:inline-block;font-weight:bold;margin-bottom:.5rem; }
+form.action label.error{ color:#d41111; }
+form.action input, form.action textarea, form.action select{ background:#fff;border:1px solid #b0b0b0;color:#4a4a4a;display:block;font-size:.8rem;padding:8px 18px;line-height:1.5;width:100%; }
+
+.mt45{ margin-top:45px; }
+.mt60{ margin-top:60px; }
+
+.success{ background:#d2ffcc;color:#116106;font-weight:bold;padding:10px; }
+.danger{ background:#ffdbdb;color:#d41111;font-weight:bold;padding:10px; }
